@@ -7,7 +7,7 @@ import Spinner from './Spinner';
 import {toast} from "react-toastify"
 
 function App() {
-  const [courses,setcourses] =useState('');
+  const [courses,setCourses] =useState('');
   const [Loading,setLoading] =useState(true);
   const [category,setCategory]=useState(filterData[0].tittle)
 
